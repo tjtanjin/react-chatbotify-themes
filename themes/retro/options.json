@@ -1,6 +1,6 @@
 {
     "theme": {
-        "fontFamily": "'Bookman Old Style', serif;",
+        "fontFamily": "'Bookman Old Style', serif",
         "actionDisabledIcon": ""
     },
     "notification": {
