@@ -62,7 +62,7 @@ React ChatBotify presently allows customizing the appearance of the chatbot via 
 
 The screenshot below contains example themes that are currently being worked on:
 
-
+![example_themes](https://github.com/tjtanjin/react-chatbotify-themes/assets/43908963/97a18875-e1d8-47c9-8889-798d3b9d64ed)
 
 ### Repository Structure
 
@@ -92,11 +92,15 @@ Firstly, this repository adopts a configuration as code approach. Within the rep
 
 For React ChatBotify to use the themes here, it has been slightly adapted (refer to [**working-branch-2.0.0**](https://github.com/tjtanjin/react-chatbotify/tree/working-branch-2.0.0)) to support a `theme` prop. Subsequently, breaking changes will be made within `options` to streamline some existing configurations.
 
-The `theme` prop accepts a string or an array of strings (i.e. 1 or more themes). When a theme is specified, React ChatBotify pulls the relevant CSS and JSON files for the theme via an open-source CDN ([JsDelivr](https://www.jsdelivr.com/)). If multiple themes are specified, then the later themes will override earlier themes if there are style conflicts. That said, theme authors may find the support for multiple themes useful in creating a base template theme which allows variants to be built on top of it.
+The `theme` prop accepts a string or an array of strings (i.e. 1 or more themes). When a theme is specified, React ChatBotify pulls the relevant CSS and JSON files for the theme via an open-source CDN ([JsDelivr](https://www.jsdelivr.com/)). If multiple themes are specified, then the later themes will override earlier themes if there are style conflicts. That said, theme authors may find the support for multiple themes useful in creating a base template theme which allows variants to be built on top of it. Example theme usage:
+- <ChatBot theme={"dark"} />
+- <ChatBot theme={["dark", "minimal_midnight"]} />
+
+ If you're keen to try this yourself, you may pull and run the working branch locally to experiment with the `theme` prop.
 
 ### Upcoming Work
 
-The work for React ChatBotify 2.0.0 is currently being done on [**working-branch-2.0.0**](https://github.com/tjtanjin/react-chatbotify/tree/working-branch-2.0.0). The modifications to support `theme` prop are largely complete, though the refactoring of `options` prop is yet to be done. However, theme authors are advised to create themes against the latest build on `npm` instead of this working branch. The changes will be migrated at a later date.
+The work for React ChatBotify 2.0.0 is currently being done on [**working-branch-2.0.0**](https://github.com/tjtanjin/react-chatbotify/tree/working-branch-2.0.0). The modifications to support `theme` prop are largely complete (including multi-theme support), though the refactoring of `options` prop is yet to be done. However, theme authors are advised to create themes against the latest build on `npm` instead of this working branch. The changes will be migrated at a later date.
 
 Having to open pull request and create folders to make a theme is not exactly the most user-friendly approach. Down the road, we will be exploring options to build a theme website for the following purposes:
 - Allow users to browse and choose themes
