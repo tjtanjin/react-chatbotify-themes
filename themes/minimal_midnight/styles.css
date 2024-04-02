@@ -1,0 +1,19 @@
+.rcb-options-container {
+  max-width: none;
+  justify-content: center;
+  margin-left: 0;
+}
+
+.rcb-chat-body-container {
+  padding-bottom: 0;
+}
+
+.rcb-close-chat-icon,
+.rcb-notification-icon-on,
+.rcb-notification-icon-off,
+.rcb-audio-icon-on,
+.rcb-audio-icon-off {
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+}
