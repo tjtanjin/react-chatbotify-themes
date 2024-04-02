@@ -12,14 +12,11 @@
 
 ## Table of Contents
 * [Introduction](#introduction)
-* [Add](#features)
-* [Technologies](#technologies)
-* [Quickstart](#quickstart)
-* [Documentation](#documentation)
-* [Team](#team)
-* [Contributing](#contributing)
-* [Support](#support)
-* [Attributions](#attributions)
+* [Creating Themes](#creating-themes)
+* [Repository Structure](#repository-structure)
+* [Integration with React ChatBotify](#integration-with-react-chatbotify)
+* [Upcoming Work](#upcoming-work)
+* [Want to Help?](#want-to-help?)
 
 ### Introduction
 
