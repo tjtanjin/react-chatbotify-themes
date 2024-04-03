@@ -24,18 +24,18 @@
   <img height="400px" src="https://github.com/tjtanjin/react-chatbotify/assets/43908963/761fcbb3-858e-4a9c-846b-4fddaf218dbc" />
 </p>
 
-Welcome to React ChatBotify Themes! This repository contains themes that may be imported for use with the [**React ChatBotify**](https://react-chatbotify.tjtanjin.com/) library. If you're unfamiliar with **React ChatBotify**, it is recommended to go through the repository [**README**](https://github.com/tjtanjin/react-chatbotify) before continuing with this guide.
+Welcome to React ChatBotify Themes! This repository contains themes that may be imported for use with the [**React ChatBotify**](https://react-chatbotify.tjtanjin.com/) library. If you're unfamiliar with **React ChatBotify**, it is recommended to go through its repository [**README**](https://github.com/tjtanjin/react-chatbotify) before continuing with this document.
 
-Note that this themes repository is part of **React ChatBotify 2.0.0** which is **still in early development**. Thus, the decisions for integrating themes is not yet cast in stone (i.e. not finalized). If you're looking to contribute themes to React ChatBotify 2.0.0 **before its release**, please do the following:
+Note that this themes repository is part of **React ChatBotify 2.0.0** which is **still in early development**. Thus, the decisions for integrating themes is not yet cast in stone (i.e. not finalized). If you're looking to contribute as a theme author to React ChatBotify 2.0.0 **before its release**, please do the following:
 - Reach out to me on [**Discord**](https://discord.gg/6R4DK4G5Zh)
 - Read the section on [**Creating Themes**](#creating-themes)
 
-Thereafter, you may start creating themes (I will share more details on Discord if you're interested). After the section on adding themes, the content will mostly be geared towards developers who are interested to know how the theming feature will be setup. Once React ChatBotify 2.0.0 is released, these information will be shifted into a proper developer guide so that theme authors have a simpler document to read.
+Thereafter, you may start creating themes (I will share more details on Discord if you're interested). After the section on adding themes, the content will mostly be geared towards developers who are interested to know more about theming integration and setup. Once React ChatBotify 2.0.0 is released, these information will be shifted into a proper developer guide so that theme authors have a simpler document to read.
 
 ### Creating Themes
 
 React ChatBotify presently allows customizing the appearance of the chatbot via the `options` prop as well as in advanced use cases, CSS files. This remains true for theme authors as well and as such, theme authors will be customizing their chatbot in **the same way that it is currently done**. With that said, the general steps taken would be:
-1) Fork/clone the repository (read the setup in the [**Developer Guide**](https://github.com/tjtanjin/react-chatbotify/blob/working-branch-2.0.0/docs/DeveloperGuide.md))
+1) Fork/clone the repository (read the chatbot setup in the [**Developer Guide**](https://github.com/tjtanjin/react-chatbotify/blob/working-branch-2.0.0/docs/DeveloperGuide.md))
 2) On your local environment, [**customize options**](https://react-chatbotify.tjtanjin.com/docs/api/bot_options) and if necessary, use css to target specific classes
 3) When you're done:
     - Copy your `options` prop into a **JSON file** named **options.json**
@@ -61,9 +61,11 @@ The screenshot below contains example themes that are currently being worked on:
 
 ![example_themes](https://github.com/tjtanjin/react-chatbotify-themes/assets/43908963/97a18875-e1d8-47c9-8889-798d3b9d64ed)
 
+As the themes designed for version 2.0.0 will be the very first batch, I'll do a lot more handholding and try to streamline processes based on feedback. With that in mind, do not hesitate to reach out to me actively on Discord for help and feedback.
+
 ### Repository Structure
 
-As mentioned earlier, if you're just interested in creating themes, then you need not read the rest of this documentation. The content hereafter are for developers interested to understand how theming will be implemented.
+As mentioned earlier, if you're just interested in creating themes, then you need not read the rest of this documentation. The content hereafter are for developers interested to understand how themes here will be implemented and integrated with the chatbot.
 
 Firstly, this repository adopts a configuration as code approach. Within the repository, you will find a themes folder which houses all supported themes of the package. Within each theme folder, you will find CSS and JSON files, both of which are ingested as configurations by the React ChatBotify package. A basic structure is thus as shown below:
 
@@ -90,8 +92,8 @@ Firstly, this repository adopts a configuration as code approach. Within the rep
 For React ChatBotify to use the themes here, it has been slightly adapted (refer to [**working-branch-2.0.0**](https://github.com/tjtanjin/react-chatbotify/tree/working-branch-2.0.0)) to support a `theme` prop. Subsequently, breaking changes will be made within `options` to streamline some existing configurations.
 
 The `theme` prop accepts a string or an array of strings (i.e. 1 or more themes). When a theme is specified, React ChatBotify pulls the relevant CSS and JSON files for the theme via an open-source CDN ([JsDelivr](https://www.jsdelivr.com/)). If multiple themes are specified, then the later themes will override earlier themes if there are style conflicts. That said, theme authors may find the support for multiple themes useful in creating a base template theme which allows variants to be built on top of it. Example theme usage:
-- <ChatBot theme={"dark"} />
-- <ChatBot theme={["dark", "minimal_midnight"]} />
+- `<ChatBot theme={"dark"} />`
+- `<ChatBot theme={["dark", "minimal_midnight"]} />`
 
  If you're keen to try this yourself, you may pull and run the working branch locally to experiment with the `theme` prop.
 
