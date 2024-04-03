@@ -64,6 +64,11 @@ The screenshot below contains example themes that are currently being worked on:
 
 As the themes designed for version 2.0.0 will be the very first batch, I'll do a lot more handholding and try to streamline processes based on feedback. With that in mind, do not hesitate to reach out to me actively on Discord for help and feedback.
 
+Note: Below are some common issues when creating new themes:
+- Forgot to style checkboxes & options
+- Forgot to style chat history button, spinner and loaded text
+- Forgot to style user chat bubbles
+
 ### Repository Structure
 
 As mentioned earlier, if you're just interested in creating themes, then you need not read the rest of this documentation. The content hereafter are for developers interested to understand how themes here will be implemented and integrated with the chatbot.
