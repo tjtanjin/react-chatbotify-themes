@@ -68,7 +68,7 @@ As the themes designed for version 2.0.0 will be the very first batch, I'll do a
 As mentioned earlier, if you're just interested in creating themes, then you need not read the rest of this documentation. The content hereafter are for developers interested to understand how themes here will be implemented and integrated with the chatbot.
 
 Firstly, this repository adopts a configuration as code approach. Within the repository, you will find a themes folder which houses all supported themes of the package. Within each theme folder, you will find CSS and JSON files, both of which are ingested as configurations by the React ChatBotify package. A basic structure is thus as shown below:
-
+```
 |- themes
     |- dark_theme
         |- styles.css
@@ -85,7 +85,7 @@ Firstly, this repository adopts a configuration as code approach. Within the rep
         |- styles.json
         |- meta.json
         |- display.png
-
+```
 
 ### Integration with React ChatBotify
 
