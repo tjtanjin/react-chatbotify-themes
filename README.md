@@ -35,7 +35,7 @@ Thereafter, you may start creating themes (I will share more details on Discord 
 ### Creating Themes
 
 React ChatBotify presently allows customizing the appearance of the chatbot via the `options` prop as well as in advanced use cases, CSS files. This remains true for theme authors as well and as such, theme authors will be customizing their chatbot in **the same way that it is currently done**. With that said, the general steps taken would be:
-1) Fork/clone the repository (read the chatbot setup in the [**Developer Guide**](https://github.com/tjtanjin/react-chatbotify/blob/working-branch-2.0.0/docs/DeveloperGuide.md))
+1) Fork/clone the **chatbot** repository (read the chatbot setup in the [**Developer Guide**](https://github.com/tjtanjin/react-chatbotify/blob/working-branch-2.0.0/docs/DeveloperGuide.md))
 2) On your local environment, [**customize options**](https://react-chatbotify.tjtanjin.com/docs/api/bot_options) and if necessary, use css to target specific classes
 3) When you're done:
     - Copy your `options` prop into a **JSON file** named **options.json**
@@ -53,9 +53,10 @@ React ChatBotify presently allows customizing the appearance of the chatbot via 
         "updated_at": ""
     }
     ```
-5) Take a screenshot of your theme and name the image **display.png**.
-6) Next, put the 4 files (**options.json, styles.css, meta.json, display.png**) into a folder named after your theme (lowercase, underscores, no spaces).
-7) Finally, open a pull request to the repository with your folder.
+5) Take a screenshot of your theme and name the image **display.png**
+6) Next, put the 4 files (**options.json, styles.css, meta.json, display.png**) into a folder named after your theme (lowercase, underscores, no spaces)
+7) Fork/clone the **themes** repository and place your newly created folder inside the **themes** folder
+8) Finally, open a pull request to the **themes** repository with your additions
 
 The screenshot below contains example themes that are currently being worked on:
 
