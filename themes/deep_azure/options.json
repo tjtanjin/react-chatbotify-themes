@@ -1,0 +1,29 @@
+{
+  "theme": {
+    "primaryColor": "#111933",
+    "secondaryColor": "#3953AB",
+    "showFooter": true
+  },
+  "header": {
+    "showAvatar": false
+  },
+  "botBubbleStyle": {
+    "borderRadius": "4px 4px 4px 10px"
+  },
+  "userBubbleStyle": {
+    "borderRadius": "4px 4px 10px 4px"
+  },
+  "chatInputContainerStyle": {
+    "backgroundColor": "#d9d9d9"
+  },
+  "botOptionStyle": {
+    "backgroundColor": "#111933",
+    "color": "white"
+  },
+  "chatTooltipStyle": {
+    "borderRadius": "4px 4px 4px 10px"
+  },
+  "botBubble": {
+    "simStream": true
+  }
+}
