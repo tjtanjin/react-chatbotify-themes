@@ -1,0 +1,63 @@
+.rcb-chat-tooltip > span {
+  color: black !important;
+}
+
+.rcb-chat-body-container {
+  background-color: #22201B;
+}
+
+.rcb-chat-tooltip {
+  border-radius: 4px 10px 4px 10px;
+}
+
+.rcb-close-chat-icon,
+.rcb-notification-icon-on,
+.rcb-send-icon,
+.rcb-audio-icon-off {
+  filter: drop-shadow(
+    1px 1px 2px #333
+  );
+}
+
+.rcb-bot-message,
+.rcb-user-message {
+  filter: drop-shadow(
+    1px 1px 2px #37F5D0
+  );
+}
+
+.rcb-view-history-button,
+.rcb-options,
+.rcb-checkbox-row-container,
+.rcb-checkbox-next-button,
+.rcb-bot-message-entry,
+.rcb-line-break-text {
+  border-radius: 10px;
+  background-color: #37F5D0;
+  color: #22201B;
+  filter: drop-shadow(
+    1px 1px 2px #37F5D0
+  );
+}
+
+.rcb-options:hover {
+  transition: background 0.3s ease;
+  background-color: #22201B !important;
+  color: #37F5D0 !important;
+}
+
+.rcb-view-history-button:hover {
+  transition: background 0.3s ease;
+  background-color: #22201B;
+  color: #37F5D0 !important;
+}
+
+.rcb-view-history-button,
+.rcb-checkbox-label,
+.rcb-checkbox-next-button::before {
+  color: #22201B;
+}
+
+.rcb-dot {
+  background-color: #22201B !important;
+}
