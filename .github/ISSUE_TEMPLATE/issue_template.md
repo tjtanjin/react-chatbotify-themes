@@ -1,12 +1,17 @@
-| name            | about                                   | title  | labels      | assignees |
-| --------------- | --------------------------------------- | ------ | ----------- | --------- |
-| Feature request | Suggest an idea to improve the library! | [Feat] | enhancement | tjtanjin  |
+| name        | about                                   | title  | labels      | assignees |
+| ----------- | --------------------------------------- | ------ | ----------- | --------- |
+| Raise issue | Suggest an idea to improve the library! | [Issue] | enhancement | tjtanjin  |
+
+---
 
 **Issue Template**
 
 Thank you for contributing to our project by raising an issue! Please fill out the sections below to the best of your ability to help us understand and address the issue you're experiencing.
 
+---
+
 **Issue Description**
+
 Provide a brief description of the issue you're experiencing.
 
 **Steps to Reproduce**
@@ -38,6 +43,7 @@ If relevant, include screenshots to help explain the issue. You can drag and dro
 - Browser: [e.g. edge, firefox]
 
 **Additional Context**
+
 Add any other context about the problem here.
 
 **Possible Solutions**
