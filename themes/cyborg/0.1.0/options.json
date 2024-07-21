@@ -1,32 +1,10 @@
 {
-  "theme": {
-    "primaryColor": "#5BC6E6",
-    "secondaryColor": "#daedf2",
-    "showFooter": false
-  },
-  "header": {
-    "showAvatar": true
-  },
-  "headerStyle": {
-    "background": "#5BC6E6"
-  },
-  "chatWindowStyle": {
-    "backgroundColor": "#d9d9d9"
-  },
-  "botBubbleStyle": {
-    "textAlign": "left",
-    "color": "#000000",
-    "borderRadius": "8px 8px 8px 0"
-  },
-  "userBubbleStyle": {
-    "backgroundColor": "#ffffff",
-    "color": "#000000",
-    "borderRadius": "8px 8px 0 8px"
-  },
-  "chatInputContainerStyle": {
-    "backgroundColor": "#d9d9d9"
-  },
-  "botOptionStyle": {
-    "color": "#000000"
-  }
+	"general": {
+		"primaryColor": "#5BC6E6",
+		"secondaryColor": "#daedf2",
+		"showFooter": false
+	},
+	"header": {
+		"showAvatar": true
+	}
 }

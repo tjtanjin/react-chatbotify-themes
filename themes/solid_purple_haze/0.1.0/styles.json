@@ -1,0 +1,65 @@
+{
+	"bodyStyle": {
+		"background": "#f5d5e0"
+	},
+	"chatHistoryButtonStyle": {
+		"background": "#c874b2",
+		"color": "#ffffff"
+	},
+	"chatHistoryButtonHoveredStyle": {
+		"background": "#210535"
+	},
+	"chatInputContainerStyle": {
+		"background": "#7b337d"
+	},
+	"chatInputAreaStyle": {
+		"background": "#c874b2",
+		"text-color": "#ffffff"
+	},
+	"chatInputAreaFocusedStyle": {
+		"background": "#c874b2",
+		"text-color": "#ffffff",
+		"box-shadow": "none"
+	},
+	"chatInputAreaDisabledStyle": {
+		"background": "#c874b2"
+	},
+	"botBubbleStyle": {
+		"background": "#430d4b"
+	},
+	"userBubbleStyle": {
+		"background": "#6768ab"
+	},
+	"headerStyle": {
+		"background": "#190d42"
+	},
+	"botOptionStyle": {
+		"background": "#191970",
+		"color": "#ffffff"
+	},
+	"botOptionHoveredStyle": {
+		"background": "#4361ee",
+		"color": "#ffffff"
+	},
+	"chatHistoryLineBreakStyle": {
+		"color": "#430d4b"
+	},
+	"botCheckboxNextStyle": {
+		"background": "#191970",
+		"color": "#ffffff"
+	},
+	"botCheckboxRowStyle": {
+		"background": "#a2d2ff",
+		"color": "#03045e"
+	},
+	"botCheckMarkStyle": {
+		"background": "#0096c7"
+	},
+	"footerStyle": {
+		"background": "#560bad",
+		"color": "#ffffff"
+	},
+	"sendButtonStyle": {
+		"background": "#f72585"
+	}
+}

@@ -1,10 +1,10 @@
 {
-    "theme": "Lewis Hamilton",
-    "description": "Based in the trademark of Lewis Hamilton 44",
-    "author": "Andres2D",
-    "github": "Andres2D",
-    "tags": ["f1","lewis hamilton","44"],
-    "version": "0.1.0",
-    "created_at": "11-05-2024",
-    "updated_at": "11-05-2024"
+	"theme": "Lewis Hamilton",
+	"description": "Based in the trademark of Lewis Hamilton 44",
+	"author": "Andres2D",
+	"github": "Andres2D",
+	"tags": ["f1","lewis hamilton","44"],
+	"version": "0.1.0",
+	"created_at": "11-05-2024",
+	"updated_at": "11-05-2024"
 }

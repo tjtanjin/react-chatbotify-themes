@@ -1,51 +1,18 @@
 {
-  "theme": {
-    "primaryColor": "#22201B",
-    "secondaryColor": "#37F5D0",
-    "showFooter": false
-  },
-  "header": {
-    "showAvatar": true,
-    "title": "Lewis Hamilton"
-  },
-  "headerStyle": {
-    "background": "#37F5D0",
-    "color": "#22201B",
-    "fontSize": "22px",
-    "fontWeight": "700"
-  },
-  "botBubbleStyle": {
-    "borderRadius": "10px 4px 10px 4px",
-    "backgroundColor": "#37F5D0",
-    "color": "#22201B"
-  },
-  "userBubbleStyle": {
-    "borderRadius": "4px 10px 4px 10px",
-    "backgroundColor": "#37F5D0",
-    "color": "#22201B"
-  },
-  "chatInputContainerStyle": {
-    "backgroundColor": "#22201B"
-  },
-  "botOptionStyle": {
-    "backgroundColor": "#37F5D0",
-    "color": "#22201B"
-  },
-  "chatTooltipStyle": {
-    "borderRadius": "4px 4px 4px 10px"
-  },
-  "botBubble": {
-    "simStream": true
-  },
-  "tooltip": {
-    "mode": "CLOSE",
-    "text": "Hi is Lewis, come talk to me! 😊"
-  },
-  "tooltipStyle": {
-    "background": "#37F5D0",
-    "color": "black"
-  },
-  "toggleStyle": {
-    "background": "#37F5D0"
-  }
+	"general": {
+		"primaryColor": "#22201B",
+		"secondaryColor": "#37F5D0",
+		"showFooter": false
+	},
+	"header": {
+		"showAvatar": true,
+		"title": "Lewis Hamilton"
+	},
+	"botBubble": {
+		"simStream": true
+	},
+	"tooltip": {
+		"mode": "CLOSE",
+		"text": "Hi is Lewis, come talk to me! 😊"
+	}
 }

@@ -1,10 +1,10 @@
 {
-    "theme": "Cyborg",
-    "description": "A minimalistic design inspired by Nike Air Mag",
-    "author": "Sharabh",
-    "github": "sharabhh",
-    "tags": [],
-    "version": "0.1.0",
-    "created_at": "17-04-2024",
-    "updated_at": "20-04-2024"
+	"theme": "Cyborg",
+	"description": "A minimalistic design inspired by Nike Air Mag",
+	"author": "Sharabh",
+	"github": "sharabhh",
+	"tags": [],
+	"version": "0.1.0",
+	"created_at": "17-04-2024",
+	"updated_at": "20-04-2024"
 }
