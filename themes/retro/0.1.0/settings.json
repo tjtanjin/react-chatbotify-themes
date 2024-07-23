@@ -1,7 +1,9 @@
 {
 	"general": {
 		"fontFamily": "'Bookman Old Style', serif",
-		"actionDisabledIcon": ""
+		"actionDisabledIcon": "",
+		"primaryColor": "#d821ff",
+		"secondaryColor": "#f9d950"
 	},
 	"notification": {
 		"disabled": true

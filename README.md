@@ -43,7 +43,7 @@ React ChatBotify presently allows customizing the appearance of the chatbot via 
 4) Create a **meta.json** file containing the following properties (the values don't particularly matter for now, may be changed later):
     ```
     {
-        "theme": "Retro",
+        "name": "Retro",
         "description": "Rocket back into the past!",
         "author": "tjtanjin",
         "github": "tjtanjin",
