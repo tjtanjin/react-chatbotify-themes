@@ -1,6 +1,6 @@
 {
 	"headerStyle": {
-		"backgroundColor": "#014f86",
+		"backgroundImage": "linear-gradient(to right, #014f86, #014f86)",
 		"padding": "12px 20px",
 		"alignItems": "center"
 	},

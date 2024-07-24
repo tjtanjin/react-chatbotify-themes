@@ -1,6 +1,7 @@
 {
 	"headerStyle": {
-		"backgroundColor": "#5BC6E6"
+		"backgroundImage": "linear-gradient(to right, #5BC6E6, #5BC6E6)"
+
 	},
 	"chatWindowStyle": {
 		"backgroundColor": "#d9d9d9"

@@ -31,7 +31,7 @@
 		"backgroundColor": "#6768ab"
 	},
 	"headerStyle": {
-		"backgroundColor": "#190d42"
+		"backgroundImage": "linear-gradient(to right, #190d42, #190d42)"
 	},
 	"botOptionStyle": {
 		"backgroundColor": "#191970",

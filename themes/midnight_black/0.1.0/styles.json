@@ -12,7 +12,7 @@
 		"boxShadow": "0px 0px 10px 0px rgba(0,0,0,0.5)"
 	},
 	"headerStyle": {
-		"background" : "#030306",
+		"backgroundImage": "linear-gradient(to right, #030306, #030306)",
 		"color": "#F4F4F4"
 	},
 	"bodyStyle": {

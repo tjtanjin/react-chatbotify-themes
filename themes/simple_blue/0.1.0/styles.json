@@ -1,6 +1,6 @@
 {
 	"headerStyle": {
-		"backgroundColor": "#3b82f6",
+		"backgroundImage": "linear-gradient(to right, #3b82f6, #3b82f6)",
 		"color": "#fff",
 		"textShadow": "none"
 	},

@@ -23,7 +23,7 @@
         "backgroundColor": "#4db6ac"
     },
     "headerStyle": {
-        "backgroundColor": "#009688"
+        "backgroundImage": "linear-gradient(to right, #009688, #009688)"
     },
     "botOptionStyle": {
         "backgroundColor": "#009688",

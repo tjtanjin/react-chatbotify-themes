@@ -1,6 +1,6 @@
 {
 	"headerStyle": {
-		"backgroundColor": "rgb(44, 44, 42)",
+		"backgroundImage": "linear-gradient(to right, #2c2c2a, #2c2c2a)",
 		"alignItems": "center",
 		"fontSize": "14px",
 		"border": 0
