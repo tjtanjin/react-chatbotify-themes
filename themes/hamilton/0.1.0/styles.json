@@ -1,6 +1,6 @@
 {
 	"headerStyle": {
-		"background": "#37F5D0",
+		"backgroundColor": "#37F5D0",
 		"color": "#22201B",
 		"fontSize": "22px",
 		"fontWeight": "700"
@@ -26,10 +26,10 @@
 		"borderRadius": "4px 4px 4px 10px"
 	},
 	"tooltipStyle": {
-		"background": "#37F5D0",
+		"backgroundColor": "#37F5D0",
 		"color": "black"
 	},
 	"toggleStyle": {
-		"background": "#37F5D0"
+		"backgroundColor": "#37F5D0"
 	}
 }

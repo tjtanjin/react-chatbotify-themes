@@ -1,6 +1,6 @@
 {
 	"headerStyle": {
-		"background": "rgb(44, 44, 42)",
+		"backgroundColor": "rgb(44, 44, 42)",
 		"alignItems": "center",
 		"fontSize": "14px",
 		"border": 0
@@ -8,7 +8,7 @@
 	"botBubbleStyle": {
 		"textAlign": "left",
 		"border": 0,
-		"background": "#070707",
+		"backgroundColor": "#070707",
 		"color": "rgba(255, 255, 255, 0.87)",
 		"padding": "10px 15px",
 		"maxWidth": "none",
@@ -18,7 +18,7 @@
 	"userBubbleStyle": {
 		"textAlign": "left",
 		"border": 0,
-		"background": "#070707",
+		"backgroundColor": "#070707",
 		"color": "rgba(255, 255, 255, 0.87)",
 		"padding": "10px 15px",
 		"maxWidth": "none",
@@ -27,7 +27,7 @@
 	},
 	"botOptionStyle": {
 		"color": "rgba(255, 255, 255, 0.87)",
-		"background": "#070707",
+		"backgroundColor": "#070707",
 		"padding": 0,
 		"border": 0,
 		"fontSize": "14px"
@@ -35,7 +35,7 @@
 	"botOptionHoveredStyle": {
 		"color": "rgba(255, 255, 255, 0.87)",
 		"textDecoration": "underline",
-		"background": "#070707",
+		"backgroundColor": "#070707",
 		"padding": 0,
 		"border": 0,
 		"transition": "none",
@@ -43,13 +43,13 @@
 	},
 	"chatInputContainerStyle": {
 		"borderTop": 0,
-		"background": "transparent"
+		"backgroundColor": "transparent"
 	},
 	"chatInputAreaStyle": {
 		"minHeight": 0,
 		"border": 0,
 		"padding": "8px 15px",
-		"background": "#070707",
+		"backgroundColor": "#070707",
 		"color": "rgba(255, 255, 255, 0.87)",
 		"fontSize": "14px"
 	},
@@ -59,12 +59,12 @@
 	"chatWindowStyle": {
 		"height": "490px",
 		"paddingBottom": "10px",
-		"background": "#070707",
+		"backgroundColor": "#070707",
 		"border": "1px solid grey"
 	},
 	"bodyStyle": {
 		"paddingBottom": 0,
-		"background": "#070707"
+		"backgroundColor": "#070707"
 	},
 	"tooltipStyle": {
 		"padding": "8px 12px",
@@ -76,12 +76,12 @@
 	},
 	"chatHistoryButtonStyle": {
 		"color": "rgba(255, 255, 255, 0.87)",
-		"background": "#070707",
+		"backgroundColor": "#070707",
 		"border": 0
 	},
 	"chatHistoryButtonHoveredStyle": {
 		"color": "rgba(255, 255, 255, 0.87)",
-		"background": "#070707",
+		"backgroundColor": "#070707",
 		"border": 0,
 		"textDecoration": "underline"
 	}
