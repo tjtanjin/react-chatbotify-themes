@@ -1,13 +1,14 @@
 <p align="center">
   <img width="200px" src="https://raw.githubusercontent.com/tjtanjin/react-chatbotify/main/assets/logo.png" />
-  <h1 align="center">React ChatBotify</h1>
+  <h1 align="center">React ChatBotify Themes</h1>
 </p>
 
 <p align="center">
-  <a href="https://github.com/tjtanjin/react-chatbotify/actions/workflows/lint.yml"> <img src="https://github.com/tjtanjin/react-chatbotify/actions/workflows/lint.yml/badge.svg" /> </a>
-  <a href="https://github.com/tjtanjin/react-chatbotify/actions/workflows/build.yml"> <img src="https://github.com/tjtanjin/react-chatbotify/actions/workflows/build.yml/badge.svg" /> </a>
-  <a href="https://github.com/tjtanjin/react-chatbotify/actions/workflows/test.yml"> <img src="https://github.com/tjtanjin/react-chatbotify/actions/workflows/test.yml/badge.svg" /> </a>
-  <img src="https://badge.fury.io/js/react-chatbotify.svg" />
+  <a href="https://github.com/tjtanjin/react-chatbotify/actions/workflows/ci-cd-pipeline.yml"> <img src="https://github.com/tjtanjin/react-chatbotify/actions/workflows/ci-cd-pipeline.yml/badge.svg" /> </a>
+  <a href="https://www.npmjs.com/package/react-chatbotify"> <img src="https://img.shields.io/npm/v/react-chatbotify?logo=semver&label=version&color=%2331c854" /> </a>
+  <a href="https://www.npmjs.com/package/react-chatbotify"> <img src="https://img.shields.io/badge/react-16--19-orange?logo=react&label=react" /> </a>
+  <a href="https://www.npmjs.com/package/react-chatbotify"> <img src="https://img.shields.io/npm/d18m/react-chatbotify?logo=npm&label=npm%20downloads&color=%232281c2" /> </a>
+  <a href="https://discord.gg/6R4DK4G5Zh"> <img src="https://img.shields.io/endpoint?url=https://my-api.tjtanjin.com/aggregator/api/v1/get/rcb_discord_member_count&logo=discord&logoColor=ffffff" /> </a>
 </p>
 
 ## Table of Contents
@@ -24,13 +25,14 @@
   <img height="400px" src="https://github.com/tjtanjin/react-chatbotify/assets/43908963/761fcbb3-858e-4a9c-846b-4fddaf218dbc" />
 </p>
 
-Welcome to React ChatBotify Themes! This repository contains themes that may be imported for use with the [**React ChatBotify**](https://react-chatbotify.com/) library. If you're unfamiliar with **React ChatBotify**, it is recommended to go through its repository [**README**](https://github.com/tjtanjin/react-chatbotify) before continuing with this document.
+Welcome to React ChatBotify Themes! This repository contains themes that may be imported for use with the [**React ChatBotify**](https://react-chatbotify.com/) library. If you're unfamiliar with **React ChatBotify**, it is recommended to go through its repository [**README**](https://github.com/tjtanjin/react-chatbotify) to at least gain a basic understanding before continuing with this document.
 
-Note that this themes repository is created as part of **React ChatBotify 2.0.0**, which was released **late July 2024**. As a relatively new project, it still actively requires open source theme contributions to help grow its gallery of themes. If you're looking to contribute as a theme author, please do the following:
+Note that this themes repository is created as part of **React ChatBotify v2.0.0**, which was released **late July 2024**. As a relatively new feature/project, it still actively requires open source theme contributions to help grow its collection of themes. If you're looking to contribute as a theme author, please do the following:
 - Read the section on [**Creating Themes**](#creating-themes)
 - Optionally (but recommended), reach out to me on [**Discord**](https://discord.gg/6R4DK4G5Zh)
+- Create an issue (or request to be assigned to an existing one) to track your work for a theme
 
-Thereafter, you may start creating themes (feel free to seek help on discord if you require clarifications). After the section on adding themes, the remaining content will mostly be geared towards developers who are interested to know more about theming integration and setup.
+Thereafter, you may start curating themes following the steps in the section below (feel free to seek help on discord if you require clarifications as well).
 
 ### Creating Themes
 
@@ -61,12 +63,16 @@ The screenshot below contains example themes that have been worked on:
 
 ![example_themes](https://github.com/tjtanjin/react-chatbotify-themes/assets/43908963/97a18875-e1d8-47c9-8889-798d3b9d64ed)
 
+You may also check out the [**Gallery Website**](https://gallery.react-chatbotify.com/themes) to look at the work that others have done before. It might also be helpful to look at some of the [**merged PRs**](https://github.com/tjtanjin/react-chatbotify-themes/pulls?q=is%3Apr+is%3Aclosed) for reference.
+
 Once again as the themes feature is relatively new, I'm happy to do a lot more handholding and streamlining of processes based on feedback. With that in mind, do not hesitate to reach out to me actively on Discord for help and suggestions.
 
 Note: Below are some common issues when creating new themes:
 - Forgot to style checkboxes & options
 - Forgot to style chat history button, spinner and loaded text
 - Forgot to style user chat bubbles
+
+If you're just looking to create themes, **you may stop reading the document here**. The remaining content will mostly be geared towards developers who are interested to know more details about theming integration and setup.
 
 ### Repository Structure
 
@@ -78,33 +84,33 @@ Firstly, this repository adopts a configuration as code approach. Within the rep
     |- dark_theme
         |- meta.json
         |- 0.1.0
-            |- styles.css
+            |- settings.json
             |- styles.json
-            |- meta.json
+            |- styles.css
             |- display.png
         |- 0.2.0
-            |- styles.css
+            |- settings.json
             |- styles.json
-            |- meta.json
+            |- styles.css
             |- display.png
     |- retro_theme
         |- meta.json
         |- 0.1.0
-            |- styles.css
+            |- settings.json
             |- styles.json
-            |- meta.json
+            |- styles.css
             |- display.png
         |- 0.1.1
-            |- styles.css
+            |- settings.json
             |- styles.json
-            |- meta.json
+            |- styles.css
             |- display.png
     |- minimal_midnight_theme
         |- meta.json
         |- 0.1.0
-            |- styles.css
+            |- settings.json
             |- styles.json
-            |- meta.json
+            |- styles.css
             |- display.png
 ```
 
