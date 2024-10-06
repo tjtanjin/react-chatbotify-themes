@@ -134,4 +134,13 @@ Thus, the eventual goal is to allow users to upload themes directly on the websi
 
 ### Want to Help?
 
-There's a lot of pieces of work involved in elevating the quality of the Chatbot (theme creation, themes website etc) and contributions are always welcome. If you're keen to help, whether it's adding a theme or making improvements to the library directly, please feel free to open a pull request or even [reach out](https://discord.gg/6R4DK4G5Zh) directly to me. Your help will be very much appreciated.
+There's a lot of pieces of work involved in elevating the quality of the chatbot (theme creation, themes website etc) and contributions are always welcome. If you're keen to help, whether it's adding a theme or making improvements to the library directly, please feel free to open a pull request or even [reach out](https://discord.gg/6R4DK4G5Zh) directly to me. You may also take a look at some of the other relevant repositories below. Your help will be very much appreciated.
+
+#### Project Repository
+- https://github.com/tjtanjin/react-chatbotify-themes
+
+#### Other Relevant Repositories
+- https://github.com/tjtanjin/react-chatbotify
+- https://github.com/tjtanjin/react-chatbotify-docs
+- https://github.com/tjtanjin/react-chatbotify-gallery-website
+- https://github.com/tjtanjin/react-chatbotify-gallery-api
