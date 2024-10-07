@@ -41,6 +41,7 @@
 .rcb-chat-input::before {
     content: "react-chatbotify ~ % \00a0";
     font-size: 14px;
+    color: "#fff";
 }
 
 .rcb-chat-input-textarea::placeholder {
