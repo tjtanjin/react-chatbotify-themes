@@ -1,0 +1,35 @@
+{
+	"headerStyle": {
+	  "backgroundImage": "linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(200, 230, 255, 0.6))",
+	  "backdropFilter": "blur(8px)"
+	},
+	"chatWindowStyle": {
+	  "backgroundColor": "rgba(255, 255, 255, 0.3)",
+	  "backdropFilter": "blur(10px)"
+	},
+	"botBubbleStyle": {
+	  "textAlign": "left",
+	  "color": "#000000",
+	  "backgroundColor": "rgba(255, 255, 255, 0.6)",
+	  "borderRadius": "10px 10px 10px 0",
+	  "boxShadow": "0 4px 15px rgba(0, 0, 0, 0.1)"
+	},
+	"userBubbleStyle": {
+	  "backgroundColor": "rgba(91, 198, 230, 0.6)",
+	  "color": "#ffffff",
+	  "borderRadius": "10px 10px 0 10px",
+	  "boxShadow": "0 4px 15px rgba(0, 0, 0, 0.1)"
+	},
+	"chatInputContainerStyle": {
+	  "backgroundColor": "rgba(255, 255, 255, 0.5)",
+	  "backdropFilter": "blur(5px)",
+	  "boxShadow": "0 4px 10px rgba(0, 0, 0, 0.1)"
+	},
+	"botOptionStyle": {
+	  "color": "#000000",
+	  "backgroundColor": "rgba(255, 255, 255, 0.7)",
+	  "border": "1px solid rgba(200, 230, 255, 0.5)",
+	  "boxShadow": "0 2px 10px rgba(0, 0, 0, 0.1)"
+	}
+  }
+  
