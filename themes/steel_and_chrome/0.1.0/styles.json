@@ -1,0 +1,24 @@
+{
+  "headerStyle": {
+    "backgroundImage": "linear-gradient(to left, #4B505A, #B0C4DE)"
+  },
+  "bodyStyle": {
+    "backgroundImage": "linear-gradient(to left, #4B505A, #B0C4DE)"
+  },
+  "tooltipStyle": {
+    "backgroundColor": "#4B505A"
+  },
+  "chatInputContainerStyle": {
+    "backgroundColor": "#4B505A",
+    "color": "#FFFFFF"
+  },
+  "botBubbleStyle": {
+    "backgroundColor": "#4B505A"
+  },
+  "footerStyle": {
+    "backgroundColor": "#4B505A"
+  },
+  "chatIconStyle": {
+    "backgroundColor": "#4B505A"
+  }
+}
