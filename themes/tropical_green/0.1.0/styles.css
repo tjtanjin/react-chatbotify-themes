@@ -1,28 +1,27 @@
 .rcb-bot-avatar {
-  border-radius: 50%; /* Rounded avatar for bot */
+  border-radius: 50%;
 }
 
 .rcb-options-container {
-  height: 41px; /* Keeps the height of options consistent */
+  height: 41px;
 }
 
 .rcb-close-chat-icon::after {
   background-color: transparent;
-  transition: none; /* Keeps the close icon simple without transition */
+  transition: none;
 }
 
 .rcb-checkbox-row-container:hover {
   margin-top: 1px;
   margin-left: 1px;
-  background-color: #81c784; /* Light Green hover effect for checkbox rows */
 }
 
 .rcb-checkbox-next-button:hover {
   margin-top: 1px;
   margin-left: 1px;
-  background-color: #ffa500; /* Bright Orange hover effect for next button */
+  background-color: #ffa500;
 }
 
 .rcb-dot {
-  background-color: #d0f0c0; /* Light Green dot color */
+  background-color: #d0f0c0;
 }

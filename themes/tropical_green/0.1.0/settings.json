@@ -1,7 +1,7 @@
 {
   "general": {
-    "primaryColor": "#274C4A" /* Dark green background */,
-    "secondaryColor": "#D0F0C0" /* Light green for message bubbles and input */,
+    "primaryColor": "#274C4A",
+    "secondaryColor": "#D0F0C0",
     "showFooter": true
   },
   "header": {
