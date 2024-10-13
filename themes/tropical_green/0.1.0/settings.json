@@ -1,0 +1,13 @@
+{
+  "general": {
+    "primaryColor": "#274C4A" /* Dark green background */,
+    "secondaryColor": "#D0F0C0" /* Light green for message bubbles and input */,
+    "showFooter": true
+  },
+  "header": {
+    "showAvatar": true
+  },
+  "botBubble": {
+    "simStream": true
+  }
+}
