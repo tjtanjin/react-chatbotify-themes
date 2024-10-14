@@ -1,0 +1,36 @@
+/* Options Container Styling */
+.rcb-options-container {
+  max-width: none;
+  justify-content: center;
+  margin-left: 0;
+  background-color: #e6e6fa; /* Light Lavender */
+  color: #4b3863; /* Dark Purple */
+}
+
+/* Chat Body Container Styling */
+.rcb-chat-body-container {
+  padding-bottom: 0;
+  background-color: #f5f5f5; /* Light Gray (Neutral Background) */
+}
+
+/* Icon Styles */
+.rcb-close-chat-icon,
+.rcb-notification-icon-on,
+.rcb-notification-icon-off,
+.rcb-audio-icon-on,
+.rcb-audio-icon-off {
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+  color: #4b3863; /* Dark Purple for icons */
+  fill: #9370db; /* Deep Purple for icon fill */
+}
+
+/* Custom Hover Effect for Icons */
+.rcb-close-chat-icon:hover,
+.rcb-notification-icon-on:hover,
+.rcb-notification-icon-off:hover,
+.rcb-audio-icon-on:hover,
+.rcb-audio-icon-off:hover {
+  fill: #4b3863; /* Dark Purple hover effect */
+}

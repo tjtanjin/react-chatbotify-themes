@@ -1,0 +1,10 @@
+{
+  "general": {
+    "primaryColor": "#E6E6FA" /* Light Lavender */,
+    "secondaryColor": "#4B3863" /* Dark Purple */,
+    "showFooter": false
+  },
+  "header": {
+    "showAvatar": true
+  }
+}

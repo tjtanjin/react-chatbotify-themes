@@ -1,0 +1,59 @@
+{
+  "headerStyle": {
+    "backgroundImage": "linear-gradient(to right, #C8A2C8, #E6E6FA)",
+    "padding": "12px 20px",
+    "alignItems": "center"
+  },
+  "botBubbleStyle": {
+    "borderRadius": "15px 15px 15px 0",
+    "textAlign": "left",
+    "border": "2px double #9370DB",
+    "backgroundColor": "#D8BFD8",
+    "color": "#4B3863",
+    "padding": "10px 15px"
+  },
+  "userBubbleStyle": {
+    "borderRadius": "15px 15px 0 15px",
+    "textAlign": "left",
+    "backgroundColor": "#9370DB",
+    "color": "#FFFFFF",
+    "padding": "10px 15px"
+  },
+  "botOptionStyle": {
+    "borderRadius": "15px",
+    "padding": "5px 20px",
+    "color": "#4B3863"
+  },
+  "botOptionHoveredStyle": {
+    "backgroundColor": "#4B3863",
+    "padding": "5px 20px"
+  },
+  "chatInputContainerStyle": {
+    "borderTop": 0
+  },
+  "chatInputAreaStyle": {
+    "minHeight": 0,
+    "border": "1px solid #9370DB",
+    "borderRadius": "15px 0 0 15px",
+    "padding": "8px 15px"
+  },
+  "sendButtonStyle": {
+    "padding": "3px",
+    "borderRadius": "0 15px 15px 0"
+  },
+  "sendButtonHoveredStyle": {
+    "padding": "3px",
+    "borderRadius": "0 15px 15px 0"
+  },
+  "chatWindowStyle": {
+    "height": "490px",
+    "paddingBottom": "10px"
+  },
+  "bodyStyle": {
+    "paddingBottom": 0
+  },
+  "tooltipStyle": {
+    "padding": "8px 12px",
+    "borderRadius": "15px"
+  }
+}
