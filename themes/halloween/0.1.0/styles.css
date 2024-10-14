@@ -1,0 +1,84 @@
+.chat-container {
+    background-color: #2C2A2B; /* Dark Charcoal */
+    color: #FFA500; /* Halloween Orange */
+}
+
+.header {
+    background-color: #4F1C0B; /* Dark Reddish Brown */
+    color: #FFA500; /* Halloween Orange */
+}
+
+.load-history {
+    background-color: #FF6F3C; /* Bright Orange */
+    color: #FFFFFF; /* White */
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.bot-message {
+    background-color: #FF7518; /* Vibrant Orange */
+    color: #000000; /* Black */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.user-message {
+    background-color: #000000; /* Black */
+    color: #FF7518; /* Vibrant Orange */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+input[type="text"] {
+    background-color: #FF6F3C; /* Bright Orange */
+    border: 1px solid #2C2A2B; /* Dark Charcoal */
+    color: #FFFFFF; /* White text */
+    padding: 8px;
+    border-radius: 20px;
+    width: 85%;
+}
+
+.send-button {
+    background-color: #2C2A2B; /* Dark Charcoal */
+    color: #FFFFFF; /* White */
+    border-radius: 20px;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+}
+
+.camera-icon {
+    background-color: #2C2A2B; /* Dark Charcoal */
+    color: #FFFFFF; /* White */
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.avatar-bot, .avatar-user {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FF7518; /* Vibrant Orange for bot */
+    color: #000000; /* Black text for bot */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.avatar-user {
+    background-color: #000000; /* Black for user */
+    color: #FF7518; /* Vibrant Orange */
+}
+
+.chat-input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #FF6F3C; /* Bright Orange for input container */
+}
