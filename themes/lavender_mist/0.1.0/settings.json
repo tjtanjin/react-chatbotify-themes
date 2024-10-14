@@ -1,7 +1,7 @@
 {
   "general": {
-    "primaryColor": "#E6E6FA" /* Light Lavender */,
-    "secondaryColor": "#4B3863" /* Dark Purple */,
+    "primaryColor": "#E6E6FA",
+    "secondaryColor": "#4B3863",
     "showFooter": false
   },
   "header": {
