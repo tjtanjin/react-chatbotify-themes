@@ -1,0 +1,75 @@
+{
+    "headerStyle": {
+      "backgroundColor": "#4F1C0B", 
+      "color": "#FFA500",
+      "borderBottom": "1px solid #FFA500"
+    },
+    "chatWindowStyle": {
+      "backgroundColor": "#2C2A2B",
+      "color": "#FFFFFF"
+    },
+    "loadHistoryStyle": {
+      "backgroundColor": "#FF6F3C", 
+      "color": "#FFFFFF", 
+      "borderRadius": "10px",
+      "padding": "10px",
+      "cursor": "pointer"
+    },
+    "botBubbleStyle": {
+      "color": "#000000", 
+      "backgroundColor": "#FF7518", 
+      "borderRadius": "10px",
+      "padding": "10px",
+      "margin": "8px 0"
+    },
+    "userBubbleStyle": {
+      "backgroundColor": "#000000", 
+      "color": "#FF7518", 
+      "borderRadius": "10px",
+      "padding": "10px",
+      "margin": "8px 0"
+    },
+    "chatInputContainerStyle": {
+      "backgroundColor": "#FF6F3C", 
+      "borderRadius": "20px",
+      "padding": "8px",
+      "boxShadow": "0 4px 10px rgba(0, 0, 0, 0.1)"
+    },
+    "sendButtonStyle": {
+      "backgroundColor": "#2C2A2B", 
+      "color": "#FFFFFF", 
+      "borderRadius": "20px",
+      "cursor": "pointer"
+    },
+    "cameraIconStyle": {
+      "backgroundColor": "#2C2A2B", 
+      "color": "#FFFFFF", 
+      "borderRadius": "50%",
+      "cursor": "pointer",
+      "padding": "10px"
+    },
+    "avatarBotStyle": {
+      "backgroundColor": "#FF7518", 
+      "color": "#000000", 
+      "borderRadius": "50%",
+      "width": "30px",
+      "height": "30px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "fontWeight": "bold",
+      "marginRight": "10px"
+    },
+    "avatarUserStyle": {
+      "backgroundColor": "#000000", 
+      "color": "#FF7518",
+      "borderRadius": "50%",
+      "width": "30px",
+      "height": "30px",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "fontWeight": "bold",
+      "marginRight": "10px"
+    }
+  }
