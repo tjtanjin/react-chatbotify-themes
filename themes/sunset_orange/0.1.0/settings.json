@@ -1,0 +1,13 @@
+{
+	"chatInput": {
+		"enabledPlaceholderText": "What can we help you with ?"
+	},
+	"general": {
+		"primaryColor": "#E39A97",
+		"secondaryColor": "#B85340",
+		"showFooter": false
+	},
+	"header": {
+		"showAvatar": false
+	}
+}
