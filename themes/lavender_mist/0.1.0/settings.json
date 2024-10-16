@@ -1,0 +1,10 @@
+{
+  "general": {
+    "primaryColor": "#E6E6FA",
+    "secondaryColor": "#4B3863",
+    "showFooter": false
+  },
+  "header": {
+    "showAvatar": true
+  }
+}
