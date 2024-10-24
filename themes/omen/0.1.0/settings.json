@@ -1,0 +1,37 @@
+// add custom icons in the icon object
+
+{
+    "general":{
+        "primaryColor":"#131215",
+        "secondaryColor":"#28272a",
+        "showFooter":false
+        },
+    // "header":{
+    //     "avatar":"/assets/botLogo.svg"
+    //     },
+    "audio":{
+        "disabled":true
+        },
+    "chatInput":{
+        "botDelay":1000,
+        // "sendButtonIcon":{},
+        "buttons":["file-attachment-button","emoji-button","send-button"]
+        },
+    "userBubble":{
+        "showAvatar":true,
+        "dangerouslySetInnerHtml":true
+        },
+    "botBubble":{
+        "showAvatar":false,
+        "dangerouslySetInnerHtml":true
+        },
+    "voice":{
+        "disabled":true
+        },
+    "sensitiveInput":{
+        "asterisksCount":6
+        },
+    // "notification":{
+    //     "icon":{}
+    //     }
+}
