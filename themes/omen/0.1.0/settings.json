@@ -6,15 +6,11 @@
         "secondaryColor":"#28272a",
         "showFooter":false
         },
-    // "header":{
-    //     "avatar":"/assets/botLogo.svg"
-    //     },
     "audio":{
         "disabled":true
         },
     "chatInput":{
         "botDelay":1000,
-        // "sendButtonIcon":{},
         "buttons":["file-attachment-button","emoji-button","send-button"]
         },
     "userBubble":{
@@ -30,8 +26,5 @@
         },
     "sensitiveInput":{
         "asterisksCount":6
-        },
-    // "notification":{
-    //     "icon":{}
-    //     }
+        }
 }
