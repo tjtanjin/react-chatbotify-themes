@@ -1,0 +1,18 @@
+.rcb-chat-input-textarea::placeholder{
+    color: #a2a1a6;
+    padding: 6px;
+}
+
+.rcb-chat-input-button-container{
+    display: flex;
+    align-items: center;
+    background: #28272a;
+    border-radius: 0 12px 12px 0;
+}
+
+.rcb-emoji-button-popup{
+    left: 150px;
+    bottom: -120px;
+    border: none;
+    background-color: #28272a;
+}
