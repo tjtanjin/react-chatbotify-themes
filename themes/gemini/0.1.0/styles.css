@@ -1,0 +1,28 @@
+.gemini-bot-avatar {
+    border-radius: 50%;
+  }
+  
+  .gemini-options-container {
+    height: 41px;
+  }
+  
+  .gemini-close-chat-icon::after {
+    background-color: transparent;
+    transition: none;
+  }
+  
+  .gemini-checkbox-row-container:hover {
+    margin-top: 1px;
+    margin-left: 1px;
+  }
+  
+  .gemini-checkbox-next-button:hover {
+    margin-top: 1px;
+    margin-left: 1px;
+    background-color: #0dc37d;
+  }
+  
+  .gemini-dot {
+    background-color: #33333d;
+  }
+  
