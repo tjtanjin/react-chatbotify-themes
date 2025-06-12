@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tjtanjin/react-chatbotify/actions/workflows/ci-cd-pipeline.yml"> <img src="https://github.com/tjtanjin/react-chatbotify/actions/workflows/ci-cd-pipeline.yml/badge.svg" /> </a>
+  <a href="https://github.com/react-chatbotify/react-chatbotify/actions/workflows/ci-cd-pipeline.yml"> <img src="https://github.com/react-chatbotify/react-chatbotify/actions/workflows/ci-cd-pipeline.yml/badge.svg" /> </a>
   <a href="https://www.npmjs.com/package/react-chatbotify"> <img src="https://img.shields.io/npm/v/react-chatbotify?logo=semver&label=version&color=%2331c854" /> </a>
   <a href="https://www.npmjs.com/package/react-chatbotify"> <img src="https://img.shields.io/badge/react-16--19-orange?logo=react&label=react" /> </a>
   <a href="https://www.npmjs.com/package/react-chatbotify"> <img src="https://img.shields.io/npm/d18m/react-chatbotify?logo=npm&label=npm%20downloads&color=%232281c2" /> </a>
@@ -28,7 +28,7 @@
   <img height="400px" src="https://github.com/tjtanjin/react-chatbotify/assets/43908963/761fcbb3-858e-4a9c-846b-4fddaf218dbc" />
 </p>
 
-Welcome to React ChatBotify Themes! This repository contains themes that may be imported for use with the [**React ChatBotify**](https://react-chatbotify.com/) library. If you're unfamiliar with **React ChatBotify**, it is recommended to go through its repository [**README**](https://github.com/tjtanjin/react-chatbotify) to at least gain a basic understanding before continuing with this document.
+Welcome to React ChatBotify Themes! This repository contains themes that may be imported for use with the [**React ChatBotify**](https://react-chatbotify.com/) library. If you're unfamiliar with **React ChatBotify**, it is recommended to go through its repository [**README**](https://github.com/react-chatbotify/react-chatbotify) to at least gain a basic understanding before continuing with this document.
 
 Note that this themes repository is created as part of **React ChatBotify v2.0.0**, which was released **late July 2024**. As a relatively new feature/project, it still actively requires open source theme contributions to help grow its collection of themes. If you're looking to contribute as a theme author, please do the following:
 - Read the section on [**Creating Themes**](#creating-themes)
@@ -40,7 +40,7 @@ Thereafter, you may start curating themes following the steps in the section bel
 ### Creating Themes
 
 React ChatBotify presently allows customizing the appearance of the chatbot via the `settings` and `styles` prop as well as in advanced use cases, CSS files. This remains true for theme authors as well and as such, theme authors will be customizing their chatbot in **the same way that it is currently done**. With that said, the general steps taken would be:
-1) Fork/clone the **chatbot** repository (read the chatbot setup in the [**Developer Guide**](https://github.com/tjtanjin/react-chatbotify/blob/main/docs/DeveloperGuide.md))
+1) Fork/clone the **chatbot** repository (read the chatbot setup in the [**Developer Guide**](https://github.com/react-chatbotify/react-chatbotify/blob/main/docs/DeveloperGuide.md))
 2) On your local environment, customize [**settings**](https://react-chatbotify.com/docs/api/settings) and [**styles**](https://react-chatbotify.com/docs/api/styles) as you deem fit and if necessary, use css to target specific classes
 3) When you're done:
     - Copy your `settings` prop into a **JSON file** named **settings.json**
@@ -64,9 +64,9 @@ React ChatBotify presently allows customizing the appearance of the chatbot via 
 
 The screenshot below contains example themes that have been worked on:
 
-![example_themes](https://github.com/tjtanjin/react-chatbotify-themes/assets/43908963/97a18875-e1d8-47c9-8889-798d3b9d64ed)
+![example_themes](https://github.com/react-chatbotify/community-themes/assets/43908963/97a18875-e1d8-47c9-8889-798d3b9d64ed)
 
-You may also check out the [**Gallery Website**](https://gallery.react-chatbotify.com/themes) to look at the work that others have done before. It might also be helpful to look at some of the [**merged PRs**](https://github.com/tjtanjin/react-chatbotify-themes/pulls?q=is%3Apr+is%3Aclosed) for reference.
+You may also check out the [**Gallery Website**](https://gallery.react-chatbotify.com/themes) to look at the work that others have done before. It might also be helpful to look at some of the [**merged PRs**](https://github.com/react-chatbotify/community-themes/pulls?q=is%3Apr+is%3Aclosed) for reference.
 
 Once again as the themes feature is relatively new, I'm happy to do a lot more handholding and streamlining of processes based on feedback. With that in mind, do not hesitate to reach out to me actively on Discord for help and suggestions.
 
@@ -129,7 +129,7 @@ Again, if you're keen to try themes feature yourself, do check out the above 2 e
 
 ### Upcoming Work
 
-Themes are currently available for browsing on the [**Gallery Website**](https://gallery.react-chatbotify.com). The gallery website itself is managed as a separate project over [**here**](https://github.com/tjtanjin/react-chatbotify-gallery-website). Having to open pull requests and create folders to share themes is not exactly the most user-friendly approach. Down the road, we will be revamping the gallery for the following purposes:
+Themes are currently available for browsing on the [**Gallery Website**](https://gallery.react-chatbotify.com). The gallery website itself is managed as a separate project over [**here**](https://github.com/react-chatbotify/gallery-website). Having to open pull requests and create folders to share themes is not exactly the most user-friendly approach. Down the road, we will be revamping the gallery for the following purposes:
 - Allow users to browse and choose themes
 - Allow users to upload their themes for sharing
 
@@ -139,11 +139,9 @@ Thus, the eventual goal is to allow users to upload themes directly on the websi
 
 There's a lot of pieces of work involved in elevating the quality of the chatbot (theme creation, themes website etc) and contributions are always welcome. If you're keen to help, whether it's adding a theme or making improvements to the library directly, please feel free to open a pull request or even [reach out](https://discord.gg/6R4DK4G5Zh) directly to me. You may also take a look at some of the other relevant repositories below. Your help will be very much appreciated.
 
-#### Project Repository
-- https://github.com/tjtanjin/react-chatbotify-themes
+#### Project Organization
+- https://github.com/react-chatbotify
 
-#### Other Relevant Repositories
-- https://github.com/tjtanjin/react-chatbotify
-- https://github.com/tjtanjin/react-chatbotify-docs
-- https://github.com/tjtanjin/react-chatbotify-gallery-website
-- https://github.com/tjtanjin/react-chatbotify-gallery-api
+#### Project Repository
+- https://github.com/react-chatbotify/community-themes
+
