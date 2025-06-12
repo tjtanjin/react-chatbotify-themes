@@ -17,7 +17,7 @@
 * [Repository Structure](#repository-structure)
 * [Integration with React ChatBotify](#integration-with-react-chatbotify)
 * [Upcoming Work](#upcoming-work)
-* [Want to Help?](#want-to-help?)
+* [Want to Help?](#want-to-help)
 
 ### Introduction
 
